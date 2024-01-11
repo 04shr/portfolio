@@ -1,0 +1,250 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav
+{
+ background-color: white;
+ height: 30px;
+ box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+#contact
+{
+    background-color: white;
+    height: 50px;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.3); 
+}
+
+#contact li
+{
+    color: #824179;
+    font-weight: bold;
+    margin: 15px;
+}
+
+#contact ul
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    list-style: none;
+}
+
+.nav ul
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    list-style: none;
+}
+
+.nav li
+{
+    color: #824179;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.nav a,
+#contact a
+{
+    text-decoration: none;
+}
+
+#about
+{
+    margin: 50px 50px 45px;
+}
+
+#about h2
+{
+    margin: 5px 0;
+    color: #e83e8c;
+    font-weight: bold;
+}
+
+#about p
+{
+    margin: 0;
+    font-size: 21px;
+    color: #474872;
+}
+
+#resume
+{
+    margin: 0px 50px;
+}
+
+button
+{
+    cursor: pointer;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #824179;
+    color: white;
+    border: none;
+}
+
+#work,
+#education
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 50px 45px;
+}
+   
+
+h2
+{
+margin: 50px 50px 5px;
+color: #e83e8c;
+font-weight: bold;
+}
+
+h3
+{
+text-align: left;
+margin-left: 15px ;
+color: #212b36;
+}
+
+.pri,
+.high,
+.col,
+.ug
+{
+width: 300px;
+height: 150px;
+margin-right: 25px;
+margin-bottom: 25px;
+border-radius: 12px;
+}
+
+.blog,
+.vtu,
+.everythingai,
+.shapescss,
+.mindlib
+{
+    width: 300px;
+    height: 420px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+}
+
+.blog img,
+.vtu img,
+.everythingai img,
+.shapescss img,
+.mindlib img
+{
+    width: 170px;
+    padding: 10px 65px;
+    border-radius: 12px;
+}
+
+.blog a,
+.vtu a,
+.everythingai a,
+.shapescss a,
+.mindlib a
+{
+color: black;
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+text-align: left;
+margin: 15px ;
+}
+
+
+.blog p,
+.vtu p,
+.everythingai p,
+.shapescss p,
+.pri p,
+.high p,
+.col p,
+.ug p
+{
+ text-align: left;
+ margin: 0 15px;
+ font-size: 20px;
+}
+
+.blog p
+{
+    margin-bottom: 80px;
+}
+
+.vtu p
+{
+    margin-bottom: 40px;
+}
+
+.everythingai p
+{
+    margin-bottom: 40px;
+}
+
+.shapescss p
+{
+    margin-bottom: 60px;
+}
+
+.blog,
+.pri
+{
+ background-color: #c0a3e3;
+}
+
+.blog img
+{
+    background-color: #695285;
+}
+
+.vtu,
+.high
+{
+ background-color: #85d3ef;
+}
+
+.vtu img
+{
+    background-color: #86b1c0;
+}
+
+.everythingai,
+.col
+{
+ background-color: #a9e5e1;
+}
+
+.everythingai img
+{
+ background-color: #8fc0bd;
+}
+
+.shapescss,
+.ug
+{
+ background-color: #95d7c6;
+}
+
+.shapescss img
+{
+ background-color: #48cfad;
+}
+
